@@ -1,0 +1,13 @@
+[package]
+name = "painter"
+version = "0.0.1-alpha"
+authors = ["Zimon Dai <daizhuoxian@gmail.com>"]
+
+[dependencies]
+iron = "*"
+handlebars-iron = "*"
+rustc-serialize = "*"
+maplit = "*"
+
+[features]
+watch = ["handlebars-iron/watch"]
